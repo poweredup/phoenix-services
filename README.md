@@ -3,7 +3,7 @@
 # Phoenix
 [Phoenix Framework](http://phoenixframework.org/) leverages the Erlang VM ability to handle millions of connections alongside Elixir's beautiful syntax and productive tooling for building fault-tolerant systems.
 
-The Phoneix Services Backend manages all communications with our [Electron Frontend](https://github.com/blocplay/frontend). Our Phoenix Services Backend currently communicates & relays with our [eWallet Backend](https://github.com/blocplay/ewallet) as well as our [Blockchain Services Backend](https://github.com/blocplay/blockchain-services).
+The Phoneix Services Backend manages all communications with our [Electron Frontend](https://github.com/turbo-play/frontend). Our Phoenix Services Backend currently communicates & relays with our [eWallet Backend](https://github.com/turbo-play/ewallet) as well as our [Blockchain Services Backend](https://github.com/turbo-play/blockchain-services).
 
 All source code is released as is under the Apache v2 licensing.
 

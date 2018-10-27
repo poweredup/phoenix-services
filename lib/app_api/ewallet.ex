@@ -42,16 +42,16 @@ defmodule AppApi.EWallet do
   def ewallet_api_server_header() do
     [
       "Authorization": ewallet_api_server_auth_header(), 
-      "Content-Type": "application/vnd.tokenplay.v1+json",
-      "Accept": "application/vnd.tokenplay.v1+json"
+      "Content-Type": "application/vnd.turboplay.v1+json",
+      "Accept": "application/vnd.turboplay.v1+json"
     ]    
   end
 
   def ewallet_api_client_header(auth_token) do
     [
       "Authorization": ewallet_api_client_auth_header(auth_token), 
-      "Content-Type": "application/vnd.tokenplay.v1+json",
-      "Accept": "application/vnd.tokenplay.v1+json"
+      "Content-Type": "application/vnd.turboplay.v1+json",
+      "Accept": "application/vnd.turboplay.v1+json"
     ]    
   end
 

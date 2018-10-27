@@ -31,7 +31,7 @@ config :app_api, AppApi.Repo,
   ssl: true
 
 config :app_api, ewallet: [
-    base_url: "http://ewallet.tokenplay.com/",
+    base_url: "http://ewallet.turboplay.com/",
     api_key: "",
     access_key: "",
     secret_key: ""

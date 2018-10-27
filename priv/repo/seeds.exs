@@ -90,26 +90,26 @@ AppApi.Repo.insert! %AppApi.Game{
             ],
             "images": %{
                 "teaser": %{
-                    "url": "https://tokenplay.s3.amazonaws.com/media/1/teaser.png"
+                    "url": "https://turboplay.s3.amazonaws.com/media/1/teaser.png"
                 },
                 "cover": %{
-                    "url": "https://tokenplay.s3.amazonaws.com/media/1/cover.png"
+                    "url": "https://turboplay.s3.amazonaws.com/media/1/cover.png"
                 }
             },
             "medias": [
                 %{
                     "id": 1,
                     "type": "video",
-                    "previewUrl": "https://tokenplay.s3.amazonaws.com/media/1/preview.png",
+                    "previewUrl": "https://turboplay.s3.amazonaws.com/media/1/preview.png",
                     "title": "A Duel Hand Disaster: Trackher Preview",
-                    "src": "https://tokenplay.s3.amazonaws.com/media/1/1.mp4"
+                    "src": "https://turboplay.s3.amazonaws.com/media/1/1.mp4"
                 },
                 %{
                     "id": 2,
                     "type": "video",
-                    "previewUrl": "https://tokenplay.s3.amazonaws.com/media/1/preview.png",
+                    "previewUrl": "https://turboplay.s3.amazonaws.com/media/1/preview.png",
                     "title": "A Duel Hand Disaster: Trackher Preview",
-                    "src": "https://tokenplay.s3.amazonaws.com/media/1/2.mp4"
+                    "src": "https://turboplay.s3.amazonaws.com/media/1/2.mp4"
                 }
             ],
             "package": %{
@@ -205,19 +205,19 @@ AppApi.Repo.insert! %AppApi.Game{
 	        ],
 	        "images": %{
 	            "teaser": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/2/teaser.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/2/teaser.png"
 	            },
 	            "cover": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/2/cover.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/2/cover.png"
 	            }
 	        },
 	        "medias": [
 	            %{
 	                "id": 1,
 	                "type": "video",
-	                "previewUrl": "https://tokenplay.s3.amazonaws.com/media/2/preview.png",
+	                "previewUrl": "https://turboplay.s3.amazonaws.com/media/2/preview.png",
 	                "title": "A Duel Hand Disaster: Trackher Preview",
-	                "src": "https://tokenplay.s3.amazonaws.com/media/2/1.mp4"
+	                "src": "https://turboplay.s3.amazonaws.com/media/2/1.mp4"
 	            }
 	        ],
 	        "package": %{
@@ -315,19 +315,19 @@ AppApi.Repo.insert! %AppApi.Game{
 	        ],
 	        "images": %{
 	            "teaser": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/3/teaser.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/3/teaser.png"
 	            },
 	            "cover": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/3/cover.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/3/cover.png"
 	            }
 	        },
 	        "medias": [
 	            %{
 	                "id": 1,
 	                "type": "video",
-	                "previewUrl": "https://tokenplay.s3.amazonaws.com/media/3/preview.png",
+	                "previewUrl": "https://turboplay.s3.amazonaws.com/media/3/preview.png",
 	                "title": "Mutant Football League",
-	                "src": "https://tokenplay.s3.amazonaws.com/media/3/1.mp4"
+	                "src": "https://turboplay.s3.amazonaws.com/media/3/1.mp4"
 	            }
 	        ],
 	        "package": %{
@@ -425,19 +425,19 @@ AppApi.Repo.insert! %AppApi.Game{
 	        ],
 	        "images": %{
 	            "teaser": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/4/teaser.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/4/teaser.png"
 	            },
 	            "cover": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/4/cover.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/4/cover.png"
 	            }
 	        },
 	        "medias": [
 	            %{
 	                "id": 1,
 	                "type": "video",
-	                "previewUrl": "https://tokenplay.s3.amazonaws.com/media/4/preview.png",
+	                "previewUrl": "https://turboplay.s3.amazonaws.com/media/4/preview.png",
 	                "title": "Chroma Squad",
-	                "src": "https://tokenplay.s3.amazonaws.com/media/4/1.mp4"
+	                "src": "https://turboplay.s3.amazonaws.com/media/4/1.mp4"
 	            }
 	        ],
 	        "package": %{
@@ -533,19 +533,19 @@ AppApi.Repo.insert! %AppApi.Game{
 	        ],
 	        "images": %{
 	            "teaser": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/5/teaser.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/5/teaser.png"
 	            },
 	            "cover": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/5/cover.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/5/cover.png"
 	            }
 	        },
 	        "medias": [
 	            %{
 	                "id": 1,
 	                "type": "video",
-	                "previewUrl": "https://tokenplay.s3.amazonaws.com/media/5/preview.png",
+	                "previewUrl": "https://turboplay.s3.amazonaws.com/media/5/preview.png",
 	                "title": "Jennifer Wilde",
-	                "src": "https://tokenplay.s3.amazonaws.com/media/5/1.mp4"
+	                "src": "https://turboplay.s3.amazonaws.com/media/5/1.mp4"
 	            }
 	        ],
 	        "package": %{
@@ -641,19 +641,19 @@ AppApi.Repo.insert! %AppApi.Game{
 	        ],
 	        "images": %{
 	            "teaser": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/6/teaser.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/6/teaser.png"
 	            },
 	            "cover": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/6/cover.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/6/cover.png"
 	            }
 	        },
 	        "medias": [
 	            %{
 	                "id": 1,
 	                "type": "video",
-	                "previewUrl": "https://tokenplay.s3.amazonaws.com/media/6/preview.png",
+	                "previewUrl": "https://turboplay.s3.amazonaws.com/media/6/preview.png",
 	                "title": "Wailing Heights",
-	                "src": "https://tokenplay.s3.amazonaws.com/media/6/1.mp4"
+	                "src": "https://turboplay.s3.amazonaws.com/media/6/1.mp4"
 	            }
 	        ],
 	        "package": %{
@@ -749,19 +749,19 @@ AppApi.Repo.insert! %AppApi.Game{
 	        ],
 	        "images": %{
 	            "teaser": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/7/teaser.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/7/teaser.png"
 	            },
 	            "cover": %{
-	                "url": "https://tokenplay.s3.amazonaws.com/media/7/cover.png"
+	                "url": "https://turboplay.s3.amazonaws.com/media/7/cover.png"
 	            }
 	        },
 	        "medias": [
 	            %{
 	                "id": 1,
 	                "type": "video",
-	                "previewUrl": "https://tokenplay.s3.amazonaws.com/media/7/preview.png",
+	                "previewUrl": "https://turboplay.s3.amazonaws.com/media/7/preview.png",
 	                "title": "Wailing Heights",
-	                "src": "https://tokenplay.s3.amazonaws.com/media/7/1.mp4"
+	                "src": "https://turboplay.s3.amazonaws.com/media/7/1.mp4"
 	            }
 	        ],
 	        "package": %{

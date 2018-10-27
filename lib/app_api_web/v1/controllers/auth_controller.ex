@@ -40,7 +40,7 @@ defmodule AppApiWeb.V1.AuthController do
 
     # set random avatar from ones available
     random_avatar_id = :rand.uniform(7)
-    payload = Map.merge(payload, %{"avatar" => %{ "url" => "https://s3-us-west-1.amazonaws.com/tokenplay-demo-mock-media/mockImagesOldApp/user/profile-avatar-#{random_avatar_id}.jpg"}})
+    payload = Map.merge(payload, %{"avatar" => %{ "url" => "https://s3-us-west-1.amazonaws.com/turboplay-demo-mock-media/mockImagesOldApp/user/profile-avatar-#{random_avatar_id}.jpg"}})
     
     with payload <- (for {key, val} <- payload, into: %{}, do: {String.to_atom(key), val}),
       new_pass_hash <- UserFetcher.generate_password_hash(password),
